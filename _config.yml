@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jake Roth"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Jake Roth"
 description              : &description "personal description"

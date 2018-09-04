@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jake Roth (title)"
+title                    : "Jake Roth"
 title_separator          : "-"
-name                     : &name "Jake Roth (name)"
+name                     : &name "Jake Roth"
 description              : &description "personal description"
 url                      : "https://jacob-roth.github.io/jakeroth.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -79,12 +79,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jake Roth (site name)"
+  name             : "Jake Roth"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "I'm interested in uncertainty and its impacts on decisionmaking. I studied economics in undergrad, worked as an investment analyst after my BA, and studied statistics during my MS."
   location         : "Chicago, IL"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=WkbssGEAAAAJ&hl=en"
   email            : "jmroth@uchicago.edu"
   uri              :
   bitbucket        : "https://bitbucket.org/rothj/"
@@ -98,14 +98,14 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/jake-roth-3b3a841b/"
+  linkedin         : "jake-roth-3b3a841b/"
   orcid            : "https://orcid.org/0000-0002-1897-2911"
   pinterest        :
   soundcloud       :
   stackoverflow    : "https://math.stackexchange.com/users/334300/jjjjjj"
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :

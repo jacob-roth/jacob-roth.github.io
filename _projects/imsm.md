@@ -1,10 +1,10 @@
 ---
-title: "* __Coastal Engineering__ \\s\\s    * Exploring empirically-driven surrogate models"
+title: "Coastal Engineering"
 collection: projects
 permalink: /projects/ce
-excerpt: "[SAMSI Workshop, July 2018](https://www.samsi.info/programs-and-activities/2017-2018-education-and-outreach-programs-and-workshops/2018-industrial-math-stat-modeling-workshop-for-graduate-students-july-15-25-2018/)"
+excerpt: "Exploring empirically-driven surrogate models"
 date: 2018-07-28
-venue: "IMSM"
+venue: "IMSM SAMSI Workshop"
 paperurl: "https://www.samsi.info/programs-and-activities/2017-2018-education-and-outreach-programs-and-workshops/2018-industrial-math-stat-modeling-workshop-for-graduate-students-july-15-25-2018/"
 ---
 ### Overview

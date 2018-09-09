@@ -2,7 +2,7 @@
 title: "* __CT Image Reconstruction__"
 collection: projects
 permalink: /projects/ct
-excerpt: "    * Efficiently solving ill-conditioned linear systems ~ [SPIE Proceedings, March 2018](https://doi.org/10.1117/12.2293805)"
+excerpt: "\s\s    * Efficiently solving ill-conditioned linear systems ~ [SPIE Proceedings, March 2018](https://doi.org/10.1117/12.2293805)"
 date: 2018-03-07
 venue: "SPIE Proceedings"
 paperurl: "https://doi.org/10.1117/12.2293805"

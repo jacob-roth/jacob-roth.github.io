@@ -59,7 +59,8 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p><a href="<i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y-%m" }}"><u>{{ post.paperurl }}</u></a> </p>
+    <!-- JR EDITED -->
+      <p><a href="{{ post.paperurl }}"><u><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y-%m" }}</u></a> </p>
     {% endif %}
 
   </article>

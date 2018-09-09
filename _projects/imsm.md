@@ -1,8 +1,8 @@
 ---
-title: "* Coastal Engineering"
+title: "> Coastal Engineering"
 collection: projects
 permalink: /projects/ce
-excerpt: "  * Exploring empirically-driven surrogate models ~ [SAMSI Workshop, July 2018](https://www.samsi.info/programs-and-activities/2017-2018-education-and-outreach-programs-and-workshops/2018-industrial-math-stat-modeling-workshop-for-graduate-students-july-15-25-2018/)"
+excerpt: "* Exploring empirically-driven surrogate models ~ [SAMSI Workshop, July 2018](https://www.samsi.info/programs-and-activities/2017-2018-education-and-outreach-programs-and-workshops/2018-industrial-math-stat-modeling-workshop-for-graduate-students-july-15-25-2018/)"
 date: 2018-03-07
 venue: "IMSM"
 paperurl: "https://www.samsi.info/programs-and-activities/2017-2018-education-and-outreach-programs-and-workshops/2018-industrial-math-stat-modeling-workshop-for-graduate-students-july-15-25-2018/"
@@ -17,6 +17,3 @@ After validating the physical model against historical near-shore conditions, we
 ### Outcomes
 We observed that the regression techniques were able to map off-shore conditions to map our physical model's near-shore conditions.
 As a next step, we proposed introducing probabilistic estimates through using Gaussian Process sampling and stochastic simulation to quantify the effect of off-shore parameter uncertainty.
-
-* test
-    * test

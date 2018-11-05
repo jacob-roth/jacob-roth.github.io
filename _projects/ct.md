@@ -8,13 +8,12 @@ venue: "SPIE Proceedings"
 paperurl: "https://doi.org/10.1117/12.2293805"
 ---
 ### Overview
-We studied and implemented various algorithms for solving systems of equations arising from an ill-posed, linear reconstruction problem.
-The forward model $Xf = g$ with forward-projector $X$, object $f$, and (sinogram) data $g$ gave rise to various reconstruction operators $R$, and the main focus of the project was in analyzing the efficiency with which a given $R$ could classify data $g$ as coming from one of two cases.
-This could be phrased in a hypothesis testing framework, but the ideal test-statistic would give a (nonlinear) MLE problem to distinguish between signal-positive and signal-negative cases for a particular $R$
-As a computationally tractable alternative, we used a (linear) Hotelling observer framework.
-This resulted in a linearly constrained QP (where $R$ was not needed explicitly).
-However, the problem involved the ill-conditioned (discretized integral) operator $X^T X$, and the resulting KKT system was poorly conditioned.
-The ill-conditioning motivated using Tikhonov regularization to approximate the ill-posed problem by a family of well-posed problems, which is where our project began.
+The goal of the project was to use signal detectability metrics to analyze how effectively a reconstruction operator $R$ could classify observational data into one of two classes.
+We studied a discretized system which gave rise to a forward model $Xf = g$ with forward-projector $X$, object $f$, (sinogram) data $g$, and reconstruction operators $R$ (s.t. $Rg \approx f$).
+This could be phrased in a hypothesis testing framework, but the ideal test-statistic would give a (nonlinear) MLE problem to distinguish between signal-positive and signal-negative cases for a particular $R$.
+In this formulation, the primary bottleneck was storing and working with $X$ (and therefore $R$) explicitly since $X$ could have $100,000$ rows/columns.
 
 ### Outcomes
-We implemented line search methods (preconditioned CG, quasi-Newton), projection methods (POCS, Douglas-Rachford, [RAAR](https://arxiv.org/abs/math/0405208)), and compared them to MINRES, LSQR, and existing convex solvers (MOSEK, Gurobi).
+For smaller toy problems, we implemented line search methods (preconditioned CG, quasi-Newton), projection methods (POCS, Douglas-Rachford, [RAAR](https://arxiv.org/abs/math/0405208)), and compared them to MINRES, LSQR, and existing convex solvers (MOSEK, Gurobi).
+For the larger problem, we considered a formulation which represented $R$ implicitly and avoided expensive storage of $R$.
+This resulted in a large, convex (but poorly-conditioned) linearly constrained QP that we were able to solve iteratively with MINRES.

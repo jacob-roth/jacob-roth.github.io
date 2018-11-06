@@ -5,7 +5,7 @@ permalink: /projects/ms
 excerpt: "Distributionally Robust Chance-Constrained Optimization"
 date: 2018-08-23
 venue: "UChicago"
-paperurl: "https://jacob-roth.github.io/jakeroth.github.io/files/mspaper.pdf"
+paperurl: "https://jacob-roth.github.io/files/mspaper.pdf"
 ---
 ### Overview
 For my independent project, I worked with Professor Mihai Anitescu on optimization approaches to decision making under uncertainty.

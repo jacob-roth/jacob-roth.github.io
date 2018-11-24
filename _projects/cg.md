@@ -3,7 +3,7 @@ title: "Conjugte Gradient"
 collection: projects
 permalink: /projects/cg
 excerpt: "Personal Notes on Conjugate Gradient"
-date: 2018-08-23
+date: 2018-11-23
 venue: "UChicago"
 paperurl: "https://jacob-roth.github.io/files/conjugategradient.pdf"
 ---

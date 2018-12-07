@@ -5,7 +5,7 @@ permalink: /projects/ce
 excerpt: "Exploring empirically-driven surrogate models"
 date: 2018-07-28
 venue: "IMSM SAMSI Workshop"
-paperurl: "https://www.samsi.info/programs-and-activities/2017-2018-education-and-outreach-programs-and-workshops/2018-industrial-math-stat-modeling-workshop-for-graduate-students-july-15-25-2018/"
+paperurl: ""
 ---
 ### Overview
 During an industrial math modeling workshop, we focused on a problem from coastal engineering.
@@ -17,3 +17,5 @@ After validating the physical model against historical near-shore conditions, we
 ### Outcomes
 We observed that the regression techniques were able to map off-shore conditions to map our physical model's near-shore conditions.
 As a next step, we proposed introducing probabilistic estimates through using Gaussian Process sampling and stochastic simulation to quantify the effect of off-shore parameter uncertainty.
+
+[Link](https://www.samsi.info/programs-and-activities/2017-2018-education-and-outreach-programs-and-workshops/2018-industrial-math-stat-modeling-workshop-for-graduate-students-july-15-25-2018/)

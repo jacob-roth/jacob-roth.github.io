@@ -1,5 +1,5 @@
 ---
-title: "MS Project"
+title: "BA Project"
 collection: projects
 permalink: /projects/ms
 excerpt: "Distributionally Robust Chance-Constrained Optimization"
@@ -21,4 +21,4 @@ For (1), we were able to obtain a representation of the optimum that then allowe
 For (2), we discretized the semi-infinite chance-constraint, then applied a convex relaxation based on Nemirovski & Shapiro’s CVaR approach, and ultimately analyzed the impact of each relaxation.
 Our findings suggested that that the convex relaxation contributed most significantly to the optimality gap. It was rewarding to answer concrete questions that drew on both both mathematical and computational approaches.
 
-[Download](https://jacob-roth.github.io/files/mspaper.pdf)
+[Download](https://jacob-roth.github.io/files/ugpaper.pdf)

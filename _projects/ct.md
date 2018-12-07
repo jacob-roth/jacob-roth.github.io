@@ -5,7 +5,7 @@ permalink: /projects/ct
 excerpt: "Efficiently solving ill-conditioned linear systems"
 date: 2018-03-07
 venue: "SPIE Proceedings"
-paperurl: "https://doi.org/10.1117/12.2293805"
+paperurl: ""
 ---
 ### Overview
 The goal of the project was to use signal detectability metrics to analyze how effectively a reconstruction operator $R$ could classify observational data into one of two classes.
@@ -17,3 +17,5 @@ In this formulation, the primary bottleneck was storing and working with $X$ (an
 For smaller toy problems, we implemented line search methods (preconditioned CG, quasi-Newton), projection methods (POCS, Douglas-Rachford, [RAAR](https://arxiv.org/abs/math/0405208)), and compared them to MINRES, LSQR, and existing convex solvers (MOSEK, Gurobi).
 For the larger problem, we considered a formulation which represented $R$ implicitly and avoided expensive storage of $R$.
 This resulted in a large, convex (but poorly-conditioned) linearly constrained QP that we were able to solve iteratively with MINRES.
+
+[Download](https://jacob-roth.github.io/files/spie.pdf)

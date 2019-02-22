@@ -8,15 +8,10 @@ venue: "Claremont McKenna College"
 paperurl: ""
 ---
 ### Overview
-For my bachelor's paper, I worked with Professor Henry Schellhorn on numerically approximating a PDE from the financial literature applicable to option pricing.
-Before getting to the PDE, I studied its origins origins and derivation through the theory of indifference pricing for contingent claims.
-I enjoyed learning about indifference pricing since it combined principles from economic decisionmaking with mathematical tools I wasn't familar with.
-And almost all of the mathematical tools were new to me.
-In particular, the PDE we considered was came from a stochastic volatility SDE, and it was my first exposure to
- 1. PDE
- 2. SDE
- 3. the close relationship between SDE and PDE through Fokker-Planck-type equations (though I didn't understand this at the time)
- 4. numerical analysis & methods.
-In the project, we considered simple deterministic and sampling-based numerical methods for approximating the PDE and in turn compared the results.
+During my senior year of undergrad, I worked with [Professor Henry Schellhorn](https://scholar.cgu.edu/henry-schellhorn/) on numerically approximating a PDE from the financial literature.
+The PDE was derived using the theory of [indifference pricing](https://en.wikipedia.org/wiki/Indifference_price) for contingent claims.
+This theory sits at the intersection of economics and mathematics and formulates the hedging problem through the lens of "utility" within a stochastic optimization framework.
+In our case, the PDE we considered came from an SDE model for an asset price involving stochastic volatility.
+The close relationship between PDE and SDE (through Fokker-Planck-type equations) allowed us to apply simple deterministic and sampling-based numerical methods for approximately pricing the security.
 
 [Download](https://jacob-roth.github.io/files/ugpaper.pdf)

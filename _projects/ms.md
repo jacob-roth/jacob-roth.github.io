@@ -8,7 +8,7 @@ venue: "UChicago"
 paperurl: ""
 ---
 ### Overview
-For my independent project, I worked with Professor Mihai Anitescu on optimization approaches to decision making under uncertainty.
+For my independent project, I worked with Professor Mihai Anitescu on optimization approaches for decision making under uncertainty.
 We studied a distributionally robust chance-constrained (DRCC) framework and contextualized it with two well-known optimization paradigms: (1) robust optimization and (2) stochastic optimization (SO).
 The project was motivated by a semi-infinite problem with a PDE constraints.
 Instead of enforcing the constraint in its original form, we took a probabilistic approach and required it to hold with high probability based on the empirical distribution of the control variables.

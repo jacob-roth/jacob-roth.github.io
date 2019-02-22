@@ -1,5 +1,5 @@
 ---
-title: "Conjugte Gradient"
+title: "Conjugate Gradient"
 collection: projects
 permalink: /projects/cg
 excerpt: "Conjugate Gradient Notes"

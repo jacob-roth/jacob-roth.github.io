@@ -4,7 +4,7 @@ collection: projects
 permalink: /projects/kmc
 excerpt: "Simulating Cascading Transmission Line Failure"
 date: 2019-12-16
-venue: "arXiv"
+venue: "Argonne National Laboratory"
 paperurl: ""
 ---
 ### Overview

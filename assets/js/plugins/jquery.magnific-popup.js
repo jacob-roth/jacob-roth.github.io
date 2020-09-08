@@ -1012,7 +1012,7 @@ $.magnificPopup.registerModule(INLINE_NS, {
 			_putInlineElementsBack();
 
 			if(item.src) {
-				var inlineSt = mfp.st.inline,
+				var intlinest = mfp.st.inline,
 					el = $(item.src);
 
 				if(el.length) {
@@ -1021,7 +1021,7 @@ $.magnificPopup.registerModule(INLINE_NS, {
 					var parent = el[0].parentNode;
 					if(parent && parent.tagName) {
 						if(!_inlinePlaceholder) {
-							_hiddenClass = inlineSt.hiddenClass;
+							_hiddenClass = intlinest.hiddenClass;
 							_inlinePlaceholder = _getEl(_hiddenClass);
 							_hiddenClass = 'mfp-'+_hiddenClass;
 						}
@@ -1031,7 +1031,7 @@ $.magnificPopup.registerModule(INLINE_NS, {
 
 					mfp.updateStatus('ready');
 				} else {
-					mfp.updateStatus('error', inlineSt.tNotFound);
+					mfp.updateStatus('error', intlinest.tNotFound);
 					el = $('<div>');
 				}
 

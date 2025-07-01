@@ -42,10 +42,15 @@ a:hover {
 }
 
 .tab {
-    margin-left: 23px;
+    margin-left: 10pt;
 }
 
-
+li{
+  padding-left: 0px;
+  padding-right:0px;
+  margin-left:0px;
+  margin-right:0px; 
+}
 .menulink:hover {
     color: #111;
 }
